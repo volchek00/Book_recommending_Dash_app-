@@ -1,0 +1,143 @@
+.container {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  margin-right: 3rem;
+  margin-bottom: 0.5rem;
+  display: flex; /* make the container a flex container */
+  justify-content: center; 
+  flex-direction: column;
+}
+
+.div_1 {
+  width: 37%;
+  align-self: center;
+}
+
+
+.div_2{
+  width: 30%;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.div_3 {
+  align-self: center;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.table1 {
+  width:100%;
+  align-self: left;
+}
+
+.table2 {
+  width: 100%;
+  align-self: right;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  color: #2c3e50;
+  font-size: 34px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.h2 {
+  color: #2c3e50;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.h3 {
+  color: #2c3e50;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.h4 {
+  color: #2c3e50;
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 90px;
+}
+
+
+.label {
+  display: inline-block;
+  align-self: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.input_1 {
+  display: flex;
+  color: #2c3e50;
+  align-items: center;
+  gap: 60px;
+  margin-bottom: 10px;
+}
+
+.input_2 {
+  display: flex;
+  color: #2c3e50;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+
+.input_3 {
+  display: flex;
+  color: #2c3e50;
+  align-items: center;
+  gap: 125px;
+}
+
+
+.input-box {
+  width: 200px;
+  height: 30px;
+  border-radius: 3px;
+  border: black;
+  border: 1px solid black; 
+  padding: 5px;
+  margin-bottom: 10px;
+  align-self: right;
+  font-size: 17px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#submit-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-left: 330px;
+}
